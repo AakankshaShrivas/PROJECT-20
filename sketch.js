@@ -4,15 +4,15 @@ var bg,bgImage;
 
 function preload() {
     //load the images here
-    tomImage1=loadAnimation("images/tomOne.png");
-    tomImage2=loadAnimation("images/tomThree.png","images/tomTwo.png");
-    tomImage3=loadAnimation("images/tomFour.png");
+    tomImage1=loadAnimation("tomOne.png");
+    tomImage2=loadAnimation("tomThree.png","tomTwo.png");
+    tomImage3=loadAnimation("tomFour.png");
 
-    bgImage=loadImage("images/garden.png");
+    bgImage=loadImage("garden.png");
 
-    jerryImage1=loadAnimation("images/jerryOne.png");
-    jerryImage2=loadAnimation("images/jerryThree.png","images/jerryTwo.png");
-    jerryImage3=loadAnimation("images/jerryFour.png");
+    jerryImage1=loadAnimation("jerryOne.png");
+    jerryImage2=loadAnimation("jerryThree.png","jerryTwo.png");
+    jerryImage3=loadAnimation("jerryFour.png");
 
 
 
